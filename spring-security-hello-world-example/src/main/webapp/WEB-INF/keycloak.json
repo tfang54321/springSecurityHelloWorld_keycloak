@@ -1,0 +1,10 @@
+{
+  "realm" : "dev",
+  "resource" : "employee-service",
+  "auth-server-url" : "http://localhost:8080/auth",
+  "ssl-required" : "external",
+  "credentials":{"secret": "d3316306-9722-4126-8411-d1af88ee5a17"},
+  "principal-attribute": "preferred_username",
+  "use-resource-role-mappings": "true",
+  "token-minimum-time-to-live": "30"
+}
